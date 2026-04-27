@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Yaroslav Kalashnyk (Zadanie 4)</title>
+    <style>
+        body { transition: background-color 0.3s, color 0.3s; font-family: sans-serif; line-height: 1.6; }
+        .theme-green { background-color: #e8f5e9; color: #1b5e20; }
+        .theme-red { background-color: #ffebee; color: #b71c1c; }
+        .hidden { display: none; }
+        
+        .controls { text-align: center; margin: 20px 0; padding: 15px; border: 1px solid currentColor; }
+        button { padding: 10px 15px; margin: 5px; cursor: pointer; font-size: 14px; }
+        main { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+    </style>
+</head>
+<body class="theme-green">
+
+    <header style="text-align: center;">
+        <h1>Yaroslav Kalashnyk</h1>
+        <p><strong>Numer indeksu: 77319</strong></p> </header>
+
+    <div class="controls">
+        <button id="themeToggleBtn">Zmień motyw na czerwony</button>
+        <button id="visibilityToggleBtn">Ukryj sekcję "Doświadczenie"</button>
+    </div>
+
+    <main>
+        <section>
+            <h2>Kontakt</h2>
+            <p>E-mail: <a href="mailto:launcher034@gmail.com">launcher034@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+48792958559">+48 792 958 559</a></p>
+            <p>Miasto: Warszawa</p>
+            <p>
+                <a href="https://github.com/yaroslavkalashnyk77319" target="_blank" rel="noopener noreferrer">Mój GitHub</a> | 
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>O mnie</h2>
+            <p>Jestem studentem gamedevu na Akademii Finansów i Biznesu Vistula. Moim celem jest tworzenie angażujących gier i rozwijanie umiejętności programistycznych w środowiskach takich jak Unity lub Unreal Engine.</p>
+        </section>
+
+        <section>
+            <h2>Umiejętności</h2>
+            <ul>
+                <li>Język rosyjski (ojczysty)</li>
+                <li>Język polski (poziom B2)</li>
+                <li>Język ukraiński (poziom B1)</li>
+                <li>Język angielski (poziom A2)</li>
+                <li>Podstawy projektowania gier (Gamedev)</li>
+            </ul>
+        </section>  
+
+        <section id="doswiadczenie">
+            <h2>Doświadczenie</h2>
+            <article>
+                <h3>Twórca projektów studenckich – Vistula University</h3>
+                <p>2025 – obecnie</p>
+                <p>Praca nad prototypami prostych gier oraz nauka logiki programowania obiektowego.</p>
+            </article>
+            <article>
+                <h3>Nauka własna i rozwój portfolio</h3>
+                <p>2024 – 2025</p>
+                <p>Analiza mechanik gier wideo oraz tworzenie dokumentacji projektowej (GDD).</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Edukacja</h2>
+            <p><strong>Vistula University - Academy of Finance and Business</strong> (Warszawa, Polska)</p>
+            <p>Kierunek: Gamedev (Projektowanie gier)</p>
+            <p>Okres: 2025 – obecnie</p>
+        </section>
+
+        <section>
+            <h2>Projekty</h2>
+            <ul>
+                <li><strong>Strona CV w HTML:</strong> Moja pierwsza profesjonalna strona internetowa wykonana zgodnie z zasadami semantyki HTML5.</li>
+                <li><strong>Analiza mechaniki gry:</strong> Projekt koncepcyjny mechaniki walki w grze typu RPG.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; margin-top: 40px;">
+        <p>&copy; 2026 Yaroslav Kalashnyk. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
