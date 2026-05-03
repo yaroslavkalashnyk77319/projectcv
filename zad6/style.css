@@ -1,0 +1,33 @@
+body { 
+    transition: background-color 0.3s, color 0.3s; 
+    font-family: sans-serif; 
+    line-height: 1.6; 
+}
+.theme-green { 
+    background-color: #e8f5e9; 
+    color: #1b5e20; 
+}
+.theme-red { 
+    background-color: #ffebee; 
+    color: #b71c1c; 
+}
+.hidden { 
+    display: none; 
+}
+.controls { 
+    text-align: center; 
+    margin: 20px 0; 
+    padding: 15px; 
+    border: 1px solid currentColor; 
+}
+button { 
+    padding: 10px 15px; 
+    margin: 5px; 
+    cursor: pointer; 
+    font-size: 14px; 
+}
+main { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
