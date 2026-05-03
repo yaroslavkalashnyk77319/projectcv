@@ -1,0 +1,19 @@
+{
+  "umiejetnosci": [
+    "Język rosyjski (ojczysty)",
+    "Język polski (poziom B2)",
+    "Język ukraiński (poziom B1)",
+    "Język angielski (poziom A2)",
+    "Podstawy projektowania gier (Gamedev)"
+  ],
+  "projekty": [
+    {
+      "nazwa": "Strona CV w HTML",
+      "opis": "Moja pierwsza profesjonalna strona internetowa wykonana zgodnie z zasadami semantyki HTML5."
+    },
+    {
+      "nazwa": "Analiza mechaniki gry",
+      "opis": "Projekt koncepcyjny mechaniki walki w grze typu RPG."
+    }
+  ]
+}
