@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Yaroslav Kalashnyk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-green">
+    <header>
+        <h1>Yaroslav Kalashnyk</h1>
+        <img src="photo.jpg" alt="Zdjęcie profilowe">
+        <p><strong>Numer indeksu: 77319</strong></p> 
+    </header>
+    
+    <div class="controls">
+        <button id="themeToggleBtn">Zmień motyw na czerwony</button>
+        <button id="visibilityToggleBtn">Ukryj sekcję "Doświadczenie"</button>
+    </div>
+    
+    <main>
+        <section class="card" id="notatki-sekcja">
+            <h2>Moje Notatki</h2>
+            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                <input type="text" id="noteInput" placeholder="Wpisz notatkę..." style="flex: 1;">
+                <button id="addNoteBtn">Dodaj</button>
+            </div>
+            <ul id="notesList" style="list-style-type: none; padding: 0;"></ul>
+        </section>
+
+        <section class="card" id="formularz">
+            <h2>Napisz do mnie</h2>
+            <form id="contactForm">
+                <label for="firstName">Imię:</label>
+                <input type="text" id="firstName" name="firstName">
+                <span id="firstNameError" style="color: red; font-size: 12px; margin-bottom: 10px;"></span>
+                
+                <label for="lastName">Nazwisko:</label>
+                <input type="text" id="lastName" name="lastName">
+                <span id="lastNameError" style="color: red; font-size: 12px; margin-bottom: 10px;"></span>
+                
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email">
+                <span id="emailError" style="color: red; font-size: 12px; margin-bottom: 10px;"></span>
+                
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <span id="messageError" style="color: red; font-size: 12px; margin-bottom: 15px;"></span>
+                
+                <button type="submit">Wyślij wiadomość</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <h2>Kontakt</h2>
+            <p>E-mail: <a href="mailto:launcher034@gmail.com">launcher034@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+48792958559">+48 792 958 559</a></p>
+            <p>Miasto: Warszawa</p>
+            <p>
+                <a href="https://github.com/yaroslavkalashnyk77319" target="_blank" rel="noopener noreferrer">Mój GitHub</a> | 
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>O mnie</h2>
+            <p>Jestem studentem gamedevu na Akademii Finansów i Biznesu Vistula. Moim celem jest tworzenie angażujących gier i rozwijanie umiejętności programistycznych w środowiskach takich jak Unity lub Unreal Engine.</p>
+        </section>
+
+        <section class="card">
+            <h2>Umiejętności</h2>
+            <ul id="skillsList" style="padding-left: 20px;"></ul>
+        </section>  
+
+        <section class="card" id="doswiadczenie">
+            <h2>Doświadczenie</h2>
+            <article style="margin-bottom: 15px;">
+                <h3>Twórca projektów studenckich – Vistula University</h3>
+                <p><strong>2025 – obecnie</strong></p>
+                <p>Praca nad prototypami prostych gier oraz nauka logiki programowania obiektowego.</p>
+            </article>
+            <article>
+                <h3>Nauka własna i rozwój portfolio</h3>
+                <p><strong>2024 – 2025</strong></p>
+                <p>Analiza mechanik gier wideo oraz tworzenie dokumentacji projektowej (GDD).</p>
+            </article>
+        </section>
+
+        <section class="card">
+            <h2>Edukacja</h2>
+            <p><strong>Vistula University - Academy of Finance and Business</strong> (Warszawa, Polska)</p>
+            <p>Kierunek: Gamedev (Projektowanie gier)</p>
+            <p>Okres: 2025 – obecnie</p>
+        </section>
+
+        <section class="card">
+            <h2>Projekty</h2>
+            <ul id="projectsList" style="padding-left: 20px;"></ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Yaroslav Kalashnyk. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
